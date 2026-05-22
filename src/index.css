@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Bangers&family=Inter:wght@400;700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Luckiest Guy", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+body {
+  background-color: #b3e5fc;
+  color: #fff;
+  overscroll-behavior: none;
+  font-family: var(--font-sans);
+}
+
